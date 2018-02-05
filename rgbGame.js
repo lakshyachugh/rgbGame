@@ -115,6 +115,8 @@ function init(num)
 	colors = genColorArr(num);
 	colorPicked = pickColor();
 	colorDisplay.textContent = colorPicked;
+	console.log("picked: " colorPicked);
+	console.log("display: "colorDisplay);
 	for (var i = 0; i < squares.length; i++)
 	{
 		squares[i].style.background = colors[i];
